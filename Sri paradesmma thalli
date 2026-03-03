@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>శ్రీ పరదేశమ్మ తల్లి దేవస్థానం</title>
+    <style>
+        body { margin: 0; padding: 0; background-color: #fff8e1; font-family: 'Arial', sans-serif; scroll-behavior: smooth; }
+
+        /* మెయిన్ బ్యానర్ సెక్షన్ - ఇక్కడ ఫోటో అడ్జస్ట్ అవుతుంది */
+        .hero-banner {
+            width: 100%;
+            height: 60vh;
+            background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+                        url('https://your-image-link-here.jpg'); /* ఇక్కడ పైన ఉన్న ఫోటో లింక్ పేస్ట్ చేయండి */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-bottom: 8px solid #daa520;
+        }
+
+        .hero-text h1 {
+            color: #fff;
+            font-size: 3.5rem;
+            text-shadow: 4px 4px 15px #000;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        /* మొబైల్ మెనూ */
+        nav {
+            background: #800000;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: gold;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* మేటర్ ఉండే సెక్షన్లు */
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 { color: #800000; text-align: center; border-bottom: 2px solid gold; padding-bottom: 10px; }
+
+        .footer { background: #222; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="hero-banner">
+    <div class="hero-text">
+        <h1>శ్రీ పరదేశమ్మ తల్లి</h1>
+        <p style="color: gold; font-size: 1.5rem; text-shadow: 2px 2px 5px #000;">వెంకటాపురం గ్రామ దేవత</p>
+    </div>
+</div>
+
+<nav>
+    <a href="#history">చరిత్ర</a>
+    <a href="#services">సేవలు</a>
+    <a href="#gallery">గ్యాలరీ</a>
+    <a href="#contact">సంప్రదించండి</a>
+</nav>
+
+<section id="history">
+    <h2>దేవాలయ చరిత్ర</h2>
+    <p>మన వెంకటాపురం గ్రామంలో వెలసిన శ్రీ పరదేశమ్మ తల్లి మహిమ గల తల్లి. అమ్మవారిని దర్శించుకుంటే కష్టాలన్నీ తొలగిపోతాయని భక్తుల నమ్మకం...</p>
+</section>
+
+<section id="services">
+    <h2>నిత్య పూజా కార్యక్రమాలు</h2>
+    <p style="text-align: center;">ప్రతిరోజూ ఉదయం 6 గంటల నుండి పూజలు ప్రారంభమవుతాయి.</p>
+</section>
+
+<section id="gallery">
+    <h2>గ్యాలరీ</h2>
+    <p style="text-align: center;">అమ్మవారి రూపాలు మరియు ఉత్సవాల చిత్రాలు త్వరలో అప్‌డేట్ చేయబడతాయి.</p>
+</section>
+
+<section id="contact">
+    <h2>సంప్రదించండి</h2>
+    <p style="text-align: center;">📍 వెంకటాపురం గ్రామం<br>📞 నిర్వహణ: VKP YOUVASENA</p>
+</section>
+
+<div class="footer">
+    <p>&copy; 2026 శ్రీ పరదేశమ్మ తల్లి దేవస్థానం</p>
+</div>
+
+</body>
+</html>
+
